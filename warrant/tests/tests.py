@@ -114,7 +114,8 @@ class CognitoAuthTestCase(unittest.TestCase):
         u.authenticate(self.password)
         u.update_profile({'given_name':'Jenkins'})
 
-
+    # kyhau: Ignore this test as we do not allow admin_get_user from Jenkins
+    @unittest.expectedFailure
     def test_admin_get_user(self):
         u = self.user.admin_get_user()
         self.assertEqual(u.pk,self.username)
@@ -161,7 +162,8 @@ class CognitoAuthTestCase(unittest.TestCase):
         )
         self.assertEqual(u.somerandom,'attribute')
 
-    
+    # kyhau: Ignore this test as we do not allow admin_get_user from Jenkins
+    @unittest.expectedFailure
     def test_admin_authenticate(self):
         
         self.user.admin_authenticate(self.password)

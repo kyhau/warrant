@@ -2,9 +2,14 @@
 
 # Warrant
 
+**[kyhau](https://github.com/kyhau)**: This repo is forked from https://github.com/capless/warrant.
+See [ReleaseNotes](ReleaseNotes.md) for the changes.
+
+---
+
 Makes working with AWS Cognito easier for Python developers.
 
-[![Build Status](https://travis-ci.org/capless/warrant.svg?branch=master)](https://travis-ci.org/capless/warrant)
+[![Build Status](https://travis-ci.org/kyhau/warrant.svg?branch=master)](https://travis-ci.org/kyhau/warrant)
 
 ## Getting Started
 
