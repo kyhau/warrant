@@ -2,6 +2,9 @@
 set -e
 
 # Require following environment variables to be set
+#   AWS_ACCESS_KEY_ID
+#   AWS_SECRET_ACCESS_KEY
+#   AWS_DEFAULT_REGION
 #   COGNITO_APP_ID
 #   COGNITO_USER_POOL_ID
 #   COGNITO_TEST_USERNAME
