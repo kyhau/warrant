@@ -3,8 +3,9 @@ env:
   #- USE_CLIENT_SECRET=True
   - USE_CLIENT_SECRET=False
 python:
-  - "2.7"
   - "3.6"
+  - "3.7"
+  - "3.8"
 
 before_install:
     - python -m pip install --upgrade setuptools pip virtualenv
